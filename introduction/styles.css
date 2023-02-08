@@ -1,21 +1,20 @@
 @font-face {
     font-family: SF-Regular;
-    src: url(./fonts/SF-UI-Display-Regular.otf);
+    src: url(./../fonts/SF-UI-Display-Regular.otf);
 }
 
 @font-face {
     font-family: SF-bold;
-    src: url(./fonts/SF-UI-Display-Bold.otf);
+    src: url(./../fonts/SF-UI-Display-Bold.otf);
 }
 
 
 html {
-    background: linear-gradient(#B5AC5F, #9B8C77, #9C905C) no-repeat center center fixed;
+    background: linear-gradient(#282821, #343434) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
 }
 
 body {
@@ -48,9 +47,41 @@ body {
     color: #FFF;
 }
 
+.outline-center {
+    display: flex;
+    justify-content: center;
+}
+
+.outline-img {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    background-image: url(https://placekitten.com/1200/800);
+    background-size: cover;
+
+    outline: #000000;
+    outline-style: solid;
+    height: auto;
+    max-width: 80%;
+    width: auto;
+}
+
+.outline-img::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
 .text {
+    z-index: 1;
     text-align: center;
-    font-size: x-large;
+    font-size: px;
     font-family: SF-Bold;
     color: #F5F5F5;
 }
