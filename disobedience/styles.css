@@ -99,3 +99,8 @@ body {
     justify-content: center;
     margin-bottom: -30px;
 }
+
+a {
+    display: inherit;
+    cursor: pointer;
+}
