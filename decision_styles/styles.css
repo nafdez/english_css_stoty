@@ -1,0 +1,130 @@
+@font-face {
+    font-family: SF-Regular;
+    src: url(./../fonts/SF-UI-Display-Regular.otf);
+}
+
+@font-face {
+    font-family: SF-bold;
+    src: url(./../fonts/SF-UI-Display-Bold.otf);
+}
+
+
+html {
+    background: linear-gradient(#282821, #343434) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    margin: 0;
+}
+
+.back-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #282828;
+    height: 40px;
+}
+
+.text-story-name {
+    align-self: center;
+    position: absolute;
+    left: 10px;
+
+    font-family: SF-Bold;
+    font-size: larger;
+    color: #FFF;
+}
+
+.text-chapter-name {
+    align-self: center;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    color: #FFF;
+}
+
+.outline-center {
+    display: flex;
+    justify-content: center;
+}
+
+.outline-text {
+    max-width: 20%;
+}
+
+.outline-text::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 22px;
+}
+
+.outln {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    border-radius: 22px;
+
+    outline: #000000;
+    outline-style: solid;
+    height: auto;
+    width: auto;
+}
+
+.outln::before{
+    border-radius: 22px;
+}
+
+.outline-img {
+    background-image: url(./../images/example.png);
+    background-size: cover;
+    min-width: 40%;
+    margin-right: 50px;
+}
+
+.outline-img::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.text {
+    z-index: 1;
+    text-align: center;
+    font-size: px;
+    font-family: SF-Bold;
+    color: #F5F5F5;
+}
+
+.text-header {
+    font-family: SF-Bold;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #F5F5F5;
+    text-shadow: 0px 7px 9px rgba(0, 0, 0, 0.3);
+}
+
+.header-center {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -30px;
+}
+
+a {
+    display: inherit;
+    cursor: pointer;
+}
