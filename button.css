@@ -26,6 +26,7 @@
 }
 
 .button:hover {
+    font-weight: bolder;
     transition: 0.1618033s;
     transform: scale(1.2);
 }
