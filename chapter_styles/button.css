@@ -30,4 +30,5 @@ table {
 .button:hover {
     transition: 0.1618033s;
     transform: scale(1.2);
+    font-weight: bolder;
 }
