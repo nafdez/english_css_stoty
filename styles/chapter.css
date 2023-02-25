@@ -1,11 +1,11 @@
 @font-face {
     font-family: SF-Regular;
-    src: url(./../fonts/SF-UI-Display-Regular.otf);
+    src: url(https://nafdez.github.io/middle-point-interactive/fonts/SF-UI-Display-Regular.otf);
 }
 
 @font-face {
     font-family: SF-bold;
-    src: url(./../fonts/SF-UI-Display-Bold.otf);
+    src: url(https://nafdez.github.io/middle-point-interactive/fonts/SF-UI-Display-Bold.otf);
 }
 
 
