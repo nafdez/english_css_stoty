@@ -5,7 +5,17 @@ There are people who think that there's no hope for the world because they don't
 Middle Point is a web interactive game in which you can navigate through different stories trying to live.
 
 - Introduction - Nuria Valdés
-- S1 - Abel
+- S1 - Abel Alonso Jimenez
 - S2 - Nuria Valdés
 - S3 - Pablo Eguilaz Pérez
 - S4 - Ignacio Fernández Prieto
+
+- Death End 1 - Abel Alonso Jimenez
+- Death End 2 - Ignacio Fernández Prieto
+- Rebel End - Pablo Eguilaz Pérez
+- Cordyceps End - Nuria Valdés
+- Militar End 1 - Ignacio Fernández Prieto
+- Militar End 2 - Abel Alonso Jimenez
+
+- HTML, CSS, JS - All participants in the group
+
