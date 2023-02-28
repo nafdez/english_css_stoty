@@ -51,7 +51,7 @@ body {
     justify-content: center;
 }
 
-.outline-img {
+.ch-outline-img {
     position: relative;
     display: flex;
     align-items: center;
@@ -67,7 +67,7 @@ body {
     width: auto;
 }
 
-.outline-img::before {
+.ch-outline-img::before {
     content: "";
     position: absolute;
     top: 0px;
@@ -99,6 +99,58 @@ body {
     margin-bottom: -30px;
 }
 
+/* DECISION */
+.outline-text {
+    max-width: 20%;
+}
+
+.outline-text::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 22px;
+}
+
+.outln {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    border-radius: 22px;
+
+    outline: #000000;
+    outline-style: solid;
+    height: auto;
+    width: auto;
+}
+
+.outln::before{
+    border-radius: 22px;
+}
+
+.de-outline-img {
+    background-image: url(./../images/example.png);
+    background-size: cover;
+    min-width: 40%;
+    margin-right: 50px;
+}
+
+.de-outline-img::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* BUTTONS AND LINKS*/
 a {
     display: inherit;
     cursor: pointer;
