@@ -168,6 +168,10 @@ body {
     margin-right: 15%;
 }
 
+.all-text {
+    padding-top: 15%;
+}
+
 /* Main button */
 .m-button {
     transition: 0.3236006s;
