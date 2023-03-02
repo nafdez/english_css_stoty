@@ -57,7 +57,6 @@ body {
     align-items: center;
     flex-direction: column;
 
-    background-image: url(./../images/example.png);
     background-size: cover;
 
     outline: #000000;
