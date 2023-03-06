@@ -61,7 +61,7 @@ body {
 
     outline: #000000;
     outline-style: solid;
-    height: 100vh;
+    height: auto;
     max-width: 80%;
     width: auto;
     justify-content: center;
@@ -78,7 +78,6 @@ body {
 }
 
 .text {
-    
     z-index: 1;
     text-align: center;
     font-size: px;
