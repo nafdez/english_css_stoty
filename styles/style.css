@@ -61,7 +61,7 @@ body {
 
     outline: #000000;
     outline-style: solid;
-    height: auto;
+    height: 100vh;
     max-width: 80%;
     width: auto;
 }
