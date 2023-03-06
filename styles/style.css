@@ -64,6 +64,7 @@ body {
     height: 100vh;
     max-width: 80%;
     width: auto;
+    justify-content: center;
 }
 
 .ch-outline-img::before {
@@ -77,11 +78,16 @@ body {
 }
 
 .text {
+    
     z-index: 1;
     text-align: center;
     font-size: px;
     font-family: SF-Bold;
     color: #F5F5F5;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
 }
 
 .text-header {
