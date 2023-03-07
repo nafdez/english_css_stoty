@@ -58,6 +58,7 @@ body {
     flex-direction: column;
 
     background-size: cover;
+    min-height: 750px;
 
     outline: #000000;
     outline-style: solid;
@@ -80,7 +81,7 @@ body {
 .text {
     z-index: 1;
     text-align: center;
-    font-size: px;
+    font-size: 18px;
     font-family: SF-Bold;
     color: #F5F5F5;
     padding-top: 10px;
@@ -105,6 +106,7 @@ body {
 
 /* DECISION */
 .outline-text {
+    justify-content: center;
     max-width: 20%;
 }
 
@@ -138,9 +140,9 @@ body {
 }
 
 .de-outline-img {
-    background-image: url(./../images/example.png);
     background-size: cover;
     min-width: 40%;
+    min-height: 750px;
     margin-right: 50px;
 }
 
